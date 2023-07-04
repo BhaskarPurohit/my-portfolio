@@ -19,6 +19,25 @@
                     height: 20px;
                     letter-spacing: 5px;
                 }
+                >div{
+                    display: flex;
+                    margin: 5rem 0;
+                    width: 70%;
+                    gap: 4rem;
+                    align-items: center;
+                    >a{
+                        &:first-of-type{
+                            background-color: $color3;
+                            color: $color1;
+                            padding: 1rem 2.5rem;
+                            transition: all 0.3s;
+                            &:hover{
+                                background-color: $color3_1;
+                            }
+                        }
+                        &:last-of-type{}
+                    }
+                }
             }
 
         }

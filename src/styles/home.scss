@@ -6,6 +6,20 @@
     >section{
         width: 100%;
         &:first-of-type{
+            padding-left: $p;
+            >div{
+                border-top: 1px solid $color6_2;
+                height: 100%;
+                padding-top: 6rem;
+                >h1{
+                    font: 900 4rem $text1;
+                }
+                .typewiterpara{
+                    margin: 20px 0;
+                    height: 20px;
+                    letter-spacing: 5px;
+                }
+            }
 
         }
         &:last-of-type{
@@ -31,5 +45,15 @@
                 object-fit: contain;
             }
         }
+       
     }
+    >svg{
+            position: absolute;
+            font-size: 4rem;
+            color: $color5;
+            left: 50%;
+            bottom: 5%;
+            transform: translateX(-50%);
+            animation: animateSvg 0.7s infinite linear alternate;
+        }
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import {motion} from "framer-motion"
 import Typewriter from 'typewriter-effect'
-import {BsArrow90DegUp} from "react-icons/bs"
+import {BsArrow90DegUp,BsChevronDown} from "react-icons/bs"
 import me from "../assets/profile picture.jpg"
 
 const Home = () => {
@@ -78,6 +78,7 @@ const Home = () => {
         <section>
             <img src={me} alt="Bhaskar" />
         </section>
+        <BsChevronDown/>
     </div>
   )
 }
